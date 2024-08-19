@@ -266,6 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 316281601}
   - component: {fileID: 316281602}
+  - component: {fileID: 316281603}
   m_Layer: 0
   m_Name: PlayerUI
   m_TagString: Untagged
@@ -309,6 +310,27 @@ MonoBehaviour:
   player_hp: {fileID: 417073245}
   player_name: {fileID: 619396802}
   player_UI: {fileID: 1916600893}
+--- !u!114 &316281603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316281600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4dc26ed4e96b14987b4d32479396b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players:
+  - hp: 0
+    max_hp: 0
+    name: 
+    image: {fileID: 0}
+  - hp: 0
+    max_hp: 0
+    name: 
+    image: {fileID: 0}
 --- !u!1 &346803710
 GameObject:
   m_ObjectHideFlags: 0
