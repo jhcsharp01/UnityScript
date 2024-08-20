@@ -322,15 +322,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4dc26ed4e96b14987b4d32479396b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  players:
-  - hp: 0
-    max_hp: 0
+  items:
+  - id: 0
+    sprite: {fileID: 0}
     name: 
-    image: {fileID: 0}
-  - hp: 0
-    max_hp: 0
+    description: 
+  - id: 0
+    sprite: {fileID: 0}
     name: 
-    image: {fileID: 0}
+    description: 
+  - id: 0
+    sprite: {fileID: 0}
+    name: 
+    description: 
 --- !u!1 &346803710
 GameObject:
   m_ObjectHideFlags: 0
